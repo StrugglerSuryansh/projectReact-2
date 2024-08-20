@@ -1,12 +1,16 @@
 import React from 'react'
 import styles from "./Button.module.css";
 
-const Button = (props) => {
+const Button = ({ isOutline, text, icon, ...rest }) => {
     return (
-        <button className={`${styles.primary_button}`}>
-            {props.icon}
-            {props.text}
+
+        <button
+            {...rest}
+            className={isOutline ? styles.outline_button : styles.primary_button}>
+            {icon}
+            {text}
         </button>
+
     )
 }
 

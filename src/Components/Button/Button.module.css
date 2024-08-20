@@ -9,6 +9,7 @@
  min-width: 220px;
  font-size: 16px;
  justify-content: center;
+ cursor: pointer;
 }
 
 .outline_button {
@@ -23,4 +24,8 @@
  min-width: 220px;
  font-size: 16px;
  justify-content: center;
+ background: white;
+ width: 100%;
+ cursor: pointer;
 }
+

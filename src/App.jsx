@@ -7,8 +7,14 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header />
-      <ContactForm />
+      <div style={{
+        display: 'flex',
+        height: '100vh',
+        flexDirection: 'column',
+      }}>
+        <Header />
+        <ContactForm />
+      </div>
     </div>
   )
 }

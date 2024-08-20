@@ -8,15 +8,15 @@ import { useState } from "react";
 
 const ContactForm = () => {
 
-
+    const [name, setname] = useState("name")
+    const [email, setemail] = useState("email")
+    const [text, settext] = useState("text")
 
 
     const onSubmit = (event) => {
 
 
-        const [name, setname] = useState("name")
-        const [email, setemail] = useState("email")
-        const [text, settext] = useState("text")
+
 
         event.preventDefault();
 
